@@ -1,0 +1,129 @@
+/***** Base Sytles *****/
+body {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+span {
+  color: #77a466;
+}
+
+/***** Grid  *****/
+body {
+  padding: 20px;
+  width: 1240px;
+}
+
+main {
+  clear: both;
+}
+
+.third-width {
+  border-top: 1px solid #dedbdc;
+  float:left;
+  margin-top: 30px;
+  height: 210px;
+  width: 373px;
+}
+
+/***** Header *****/
+header h1 {
+  float: left;
+  font-size: 30px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+/***** Navigation *****/
+nav {
+  color: #77a466;
+  float: right;
+  padding-right: 30px;
+  text-transform: uppercase;
+}
+
+nav ul li{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+/***** Body *****/
+img {
+  border-bottom: 3px solid #77a466;
+  border-top: 3px solid #77a466;
+  height: 294px;
+  margin-top: 20px;
+  width: 1220px;
+}
+
+h2 {
+  color: #77a466;
+  font-size: 18px;
+  line-height: 23px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+#about p{
+  font-size: 16px;
+  line-height: 25px;
+  padding-right: 62px;
+}
+
+/***** Columns Section *****/
+
+.third-width h3 {
+  font-size: 12px;
+  line-height: 24px;
+  padding-top: 24px;
+  text-transform: uppercase;
+}
+
+.third-width p {
+  font-size: 16px;
+}
+
+/***** Specials *****/
+#menu {
+  border-right: 1px solid #dedbdc;
+
+}
+
+#menu p {
+  color: #77a466;
+  line-height: 18px;
+  text-transform: capitalize;
+}
+
+/***** Reviews *****/
+#reviews {
+  border-right: 1px solid #dedbdc;
+  line-height: 21px;
+  padding-left: 30px;
+  padding-right: 44px;
+}
+
+/***** Contact *****/
+#contact {
+  line-height: 24px;
+  padding-left: 30px;
+
+}
+
+/***** Footer *****/
+footer{
+  border-top: 1px solid #dedbdc;
+  clear:both;
+  text-align: center;
+  font-size: 16px;
+  line-height: 23px;
+  padding-top: 34px;
+}
+
+footer span {
+  font-family: 'Galada', cursive;
+  text-transform: lowercase;
+}

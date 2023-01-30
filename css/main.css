@@ -1,0 +1,187 @@
+body {
+	font-family: 'Amiri', Helvetica, Arial, serif;
+	background-color: #FCFCFC;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 18px;
+}
+h3 {
+	font-size: 14px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+    padding: 0 30px;
+}
+
+header {
+	height: 110px;
+	border-bottom: 3px solid #7157a4;
+	margin: 0 auto;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+	padding: 38px 0;
+}
+header h1 span {
+	color: #7157a4;
+}
+
+nav {
+	float: right;
+	padding: 46px 0;
+}
+
+.nav-active {
+  background-color: #F1ECF4;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0 10px;
+	display: inline;
+	scroll-behavior: smooth;
+}
+nav ul li a{
+	text-decoration: none;
+	color:#7157a4;
+}
+
+.top-section,
+.bottom-section {
+	margin: 0 auto;
+	clear: both;
+}
+
+.main-image {
+	float: left;
+  height: auto;
+}
+
+.main-image img {
+	border-bottom: 3px solid #7157a4;
+  height: 600px;
+  width: 1200px;
+}
+
+.main-title {
+	height: auto;
+	float: left;
+}
+.main-title h2 {
+	text-align: left;
+	padding: 5px 0;
+	color: #7157a4;
+}
+.main-title p {
+	padding: 0;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.about,
+.education,
+#address {
+	width: 399px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+}
+
+.about h3 {
+	padding: 10px 0;
+}
+
+.education {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+.education h3,
+#address h3 {
+	padding: 10px 30px;
+}
+
+.gallery-one,
+.gallery-two {
+	width: 600px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+}
+
+.hc-menu, .js-menu {
+	list-style: none;
+	padding: 0;
+}
+.hc-menu li, .js-menu li {
+	padding: 10px 0;
+}
+
+.hc-menu a:link {
+	color: #7157a4;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+.hc-menu a:visited {
+  color: #77a466;
+  background-color: transparent;
+	text-decoration: none;
+}
+
+.js-menu {
+	color: #333;
+	font-size: 16px;
+	line-height: 21px;
+}
+
+#address, #gallery-address {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.connections li {
+	list-style: none;
+	display: inline;
+	padding: 15px;
+}
+
+footer {
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: none;
+	color: #7157a4;
+	font-size: 14px;
+}
